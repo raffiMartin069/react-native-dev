@@ -16,6 +16,20 @@
 		"ghcr.io/devcontainers/features/github-cli:1": {},
 		"ghcr.io/devcontainers/features/python:1": {},
 		"ghcr.io/devcontainers/features/sshd:1": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"expo.vscode-expo-tools",
+				"dsznajder.es7-react-js-snippets",
+				"msjsdiag.vscode-react-native",
+				"GitHub.copilot",
+				"GitHub.copilot-chat",
+				"PKief.material-icon-theme",
+				"ahmadawais.shades-of-purple",
+				"christian-kohler.path-intellisense"
+			]
+		}
 	}
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
